@@ -1,0 +1,109 @@
+# 环境变量和敏感配置文件
+.env
+.env.local
+.env.*.local
+*.env
+config.json
+secrets.json
+credentials.json
+*.key
+*.pem
+*.cert
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# 日志文件
+*.log
+logs/
+*.log.*
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 缓存和临时文件
+*.cache
+.cache/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# AI/ML 相关
+*.h5
+*.pkl
+*.pickle
+*.model
+checkpoints/
+models/
+
+# 其他敏感文件
+*.csv
+*.xlsx
+data/
+datasets/
