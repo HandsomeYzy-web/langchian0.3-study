@@ -53,10 +53,6 @@ venv.bak/
 *.sublime-project
 *.sublime-workspace
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
 # 测试和覆盖率
 .pytest_cache/
 .coverage
